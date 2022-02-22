@@ -4,7 +4,7 @@
 ![Home](https://user-images.githubusercontent.com/53982668/155032129-dc025089-a92f-4bac-b769-08cade95820b.png)
 
 <h2>Projeto</h2>
-<p>Projeto feito para expor meu portfolio na internet</p>
+<p>Projeto para desafiar meus conhecimentos em criação de interfaces Web no Figma, criação de aplicações com React e a utilização do sistema de deploy do Github</p>
 
 <h2>Tecnologia</h2>
 <ul>
