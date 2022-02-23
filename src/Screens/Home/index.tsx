@@ -1,10 +1,11 @@
 import React from 'react';
+import { Navbar } from '../../components/Navbar';
 import { Container } from './styles';
 
 export function Home(){
     return (
         <Container>
-            <h1>helloooooo</h1>
+            <Navbar/>
         </Container>
     );
 }
