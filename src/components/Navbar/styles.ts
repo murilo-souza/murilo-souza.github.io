@@ -8,6 +8,7 @@ export const Container = styled.nav`
     height: 100px;
     align-items: center;
     color: #fff;
+    position:fixed
 
     h3{
         font-size: 64px;
