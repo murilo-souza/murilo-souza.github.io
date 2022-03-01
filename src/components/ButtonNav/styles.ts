@@ -1,12 +1,12 @@
 import styled from "styled-components";
 import {AiFillGithub} from 'react-icons/ai'
 
-export const Container = styled.button`
+export const Container = styled.a`
+    text-decoration: none;
     height: 40px;
     border-radius: 15px;
     border: 0;
     background-color: #1F2729;
-    color: #FFFFFF;
     cursor: pointer;
 
     padding: 0 1.5rem;
@@ -16,12 +16,13 @@ export const Container = styled.button`
     justify-content: center;
 
     p{
+        color: #FFFFFF;
         font-size: 20px;
         margin-right: 10px;
     }
 
     :hover{
-        background-color: #505050;
+        background-color: #323030;
     }
 `;
 

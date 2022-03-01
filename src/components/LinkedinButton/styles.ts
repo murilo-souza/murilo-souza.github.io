@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import {AiFillGithub} from 'react-icons/ai'
 import {BsLinkedin} from 'react-icons/bs'
 
 export const Container = styled.a`
+    text-decoration: none;
     height: 50px;
     width: 315px;
     border-radius: 15px;
@@ -21,7 +21,7 @@ export const Container = styled.a`
     }
 
     :hover{
-        background-color: #505050;
+        background-color: #2D88B3;
     }
 
 `;
