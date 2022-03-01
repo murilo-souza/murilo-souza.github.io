@@ -21,14 +21,11 @@ export const Container = styled.button`
     }
 
     :hover{
-        background-color: #ff0084;
+        background-color: #505050;
     }
 `;
 
 export const Icon = styled(AiFillGithub)`
     color: #ff0084;
     font-size: 25px;
-    :hover{
-        color: #1f2729;
-    }
 `
