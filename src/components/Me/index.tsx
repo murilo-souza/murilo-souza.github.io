@@ -7,5 +7,7 @@ export function Me(){
         <Container>
             <img src={MePhoto} alt="My photo" />
         </Container>
+
+        
     );
 }
