@@ -13,7 +13,6 @@ export function Home(){
                 <p>Browse the website to see my projects and skills</p>
             </section>
             <Me/>
-
         </Container>
     );
 }
