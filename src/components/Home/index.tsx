@@ -12,7 +12,9 @@ export function Home(){
                 <h3>Welcome to <span>My Portfolio</span></h3>
                 <p>Browse the website to see my projects and skills</p>
             </section>
-            <Me/>
+            <section>
+                <Me/>
+            </section>
         </Container>
     );
 }
