@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container } from './styles';
-import Me from "../../assets/Me.png"
+import MePhoto from "../../assets/Me.png"
 
-export function Photo(){
+export function Me(){
     return(
         <Container>
-            <img src={Me} alt="My photo" />
+            <img src={MePhoto} alt="My photo" />
         </Container>
     );
 }
