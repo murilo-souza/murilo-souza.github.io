@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Icon } from './styles';
-import {AiFillGithub} from 'react-icons/ai'
 
 export function ButtonNav(){
     return (

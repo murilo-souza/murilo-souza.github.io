@@ -10,7 +10,6 @@ export const Container = styled.div`
     justify-content: center;
 
     img{
-
         width: 360px;
         height: 360px;
     }

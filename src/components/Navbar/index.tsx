@@ -9,10 +9,10 @@ export function Navbar(){
             <div>
                 <h3>Portfolio</h3>
                 <div>
-                    <a href="#">Home</a>
-                    <a href="#">About me</a>
-                    <a href="#">Skills</a>
-                    <a href="#">Projects</a>
+                    <a href="#Home">Home</a>
+                    <a href="#About">About me</a>
+                    <a href="#Skills">Skills</a>
+                    <a href="#Projects">Projects</a>
                     <ButtonNav/>
                 </div>
             </div>
