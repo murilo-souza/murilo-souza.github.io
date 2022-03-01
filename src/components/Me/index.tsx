@@ -5,7 +5,7 @@ import MePhoto from "../../assets/Me.png"
 export function Me(){
     return(
         <Container>
-            <img src={MePhoto} alt="My photo" />
+            <img src={MePhoto} alt="Minha foto" />
         </Container>
 
         
