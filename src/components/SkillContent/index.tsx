@@ -1,6 +1,5 @@
 import React from "react";
 import { Container } from "./styles";
-import react from '../../assets/React.png'
 
 interface Props {
     image:string ;
