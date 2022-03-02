@@ -5,7 +5,7 @@ import { Navbar } from '../../components/Navbar';
 import { Container } from './styles';
 import { Skills } from '../Skills';
 import { Projects } from '../Projects';
-import { Contact } from '../Contact';
+import { MeetMe } from '../Meetme';
 
 export function PrincipalPage(){
     return (
@@ -15,7 +15,7 @@ export function PrincipalPage(){
             <AboutMe/>
             <Skills/>
             <Projects/>
-            <Contact/>
+            <MeetMe/>
         </Container>
     );
 }
