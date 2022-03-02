@@ -26,12 +26,9 @@ export const Container = styled.a`
 
         p{
             color: #fff;
-            font-size: 30px;
+            font-size: 40px;
         }
 
-        span {
-            color: #fff;
-        }
     }
 
 `;

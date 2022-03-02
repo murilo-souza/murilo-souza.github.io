@@ -8,7 +8,6 @@ export function Linkedin(){
             <div><Icon/></div>
             <section>
                 <p>LinkedIn</p>
-                <span>linkedin.com/in/murilo-leme-de-souza/</span>
             </section>
         </Container>
     );

@@ -8,7 +8,6 @@ export function Github(){
             <div><Icon/></div>
             <section>
                 <p>github</p>
-                <span>github.com/murilo-souza</span>
             </section>
         </Container>
     );

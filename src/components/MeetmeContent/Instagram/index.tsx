@@ -8,7 +8,6 @@ export function Instagram(){
             <div><Icon/></div>
             <section>
                 <p>Instagram</p>
-                <span>instagram.com/murilo_souza544/</span>
             </section>
         </Container>
     );
