@@ -1,23 +1,19 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    background-color: #141212;
     width: 100%;
-    height:95vh;
-    padding: 71px 90px 0 100px;
+    height: 87vh;
+    background-color: #161414;
+    padding: 100px 100px 0 100px;
 
     h3 {
-        font-size: 60px;
         color: #fff;
-        margin-bottom: 25px;
-    }
-
-    section {
-        margin-bottom: 35px;
+        font-size: 60px;
+        margin-bottom: 50px;
     }
 
     div {
         display: flex;
         flex-direction: row;
     }
-`;
+`

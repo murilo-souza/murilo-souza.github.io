@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.nav`
     width: 100%;
-    height: 120px;
+    height: 112px;
     color: #fff;
     position:fixed;
     top: 0;
@@ -11,12 +11,12 @@ export const Container = styled.nav`
     background-color: #141212;
     div {
       align-items: center;
-      padding: 0 80px 0 100px ;
+      padding: 0 40px 0 100px ;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       h3{
-          font-size: 64px;
+          font-size: 56px;
       }
   
       div {

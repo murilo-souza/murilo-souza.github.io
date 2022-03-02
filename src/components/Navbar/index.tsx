@@ -13,6 +13,7 @@ export function Navbar(){
                     <a href="#About">About me</a>
                     <a href="#Skills">Skills</a>
                     <a href="#Projects">Projects</a>
+                    <a href="#Meet">Meet me</a>
                     <ButtonNav/>
                 </div>
             </div>

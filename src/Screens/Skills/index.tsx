@@ -14,40 +14,42 @@ export function Skills(){
     return (
         <Container>
             <h3>Web&Mobile Skills</h3>
-            <div>
-                <SkillContent
-                    image={react}
-                    alt="React"
-                    title='React'
-                />
-                <SkillContent
-                    image={reactnative}
-                    alt="React Native"
-                    title='React Native'
-                />
-                <SkillContent
-                    image={nextjs}
-                    alt="Next JS"
-                    title='Next JS'
-                />
-            </div>
-            <div>
-                <SkillContent
-                    image={typescript}
-                    alt="Typescript"
-                    title='Typescript'
-                />
-                <SkillContent
-                    image={html}
-                    alt="Html"
-                    title='Html'
-                />
-                <SkillContent
-                    image={css}
-                    alt="Css"
-                    title='Css'
-                />
-            </div>
+            <section>
+                <div>
+                    <SkillContent
+                        image={react}
+                        alt="React"
+                        title='React'
+                        />
+                    <SkillContent
+                        image={reactnative}
+                        alt="React Native"
+                        title='React Native'
+                        />
+                    <SkillContent
+                        image={nextjs}
+                        alt="Next JS"
+                        title='Next JS'
+                        />
+                </div>
+                <div>
+                    <SkillContent
+                        image={typescript}
+                        alt="Typescript"
+                        title='Typescript'
+                        />
+                    <SkillContent
+                        image={html}
+                        alt="Html"
+                        title='Html'
+                        />
+                    <SkillContent
+                        image={css}
+                        alt="Css"
+                        title='Css'
+                        />
+                </div>
+            </section>
             <h3>UX/UI Design Skills</h3>
             <div>
                 <SkillContent
