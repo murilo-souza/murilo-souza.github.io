@@ -15,3 +15,6 @@
 
 <h2>Layout</h2>
 <p>Para ver o layout completo da aplicação acesse o <a href="https://www.figma.com/file/UThmM13cp0YgSWnxM0WiOi/LayoutPortfolio?node-id=1%3A2">Link</a></p>
+
+
+<p>:construction: Em desenvolvimento :construction:</p>
