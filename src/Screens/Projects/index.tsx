@@ -7,7 +7,7 @@ import nextjs from '../../assets/nextjs.png'
 
 export function Projects(){
     return(
-        <Container>
+        <Container id="projects">
             <h3>Principle projects</h3>
             <div>
                     <SkillContent

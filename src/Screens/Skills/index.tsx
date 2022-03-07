@@ -12,7 +12,7 @@ import figma from '../../assets/figma.png'
 
 export function Skills(){
     return (
-        <Container>
+        <Container id="skills">
             <h3>Web&Mobile Skills</h3>
             <section>
                 <div>

@@ -9,6 +9,10 @@ export const GlobalStyles = createGlobalStyle`
         font-family:'Raleway', sans-serif;
     }
 
+    html {
+        scroll-behavior: smooth
+    }
+
     @media (max-width:1080) {
         html {
             font-size: 93.75%

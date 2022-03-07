@@ -7,7 +7,7 @@ import { Container } from './styles';
 
 export function MeetMe(){
     return (
-        <Container>
+        <Container id="meet">
             <h3>Meet me</h3>
             <div>
                 <div>
