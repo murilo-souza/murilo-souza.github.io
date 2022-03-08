@@ -21,11 +21,11 @@ export function Navbar(){
             <div>
                 <h3>Portfolio</h3>
                 <div>
-                    <a href="#home">Home</a>
-                    <a href="#about">About me</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#meet">Meet me</a>
+                    <a href="#home" onClick={handlePosition}>Home</a>
+                    <a href="#about" onClick={handlePosition}>About me</a>
+                    <a href="#skills" onClick={handlePosition}>Skills</a>
+                    <a href="#projects" onClick={handlePosition}>Projects</a>
+                    <a href="#meet" onClick={handlePosition}>Meet me</a>
                     <ButtonNav/>
                 </div>
             </div>
