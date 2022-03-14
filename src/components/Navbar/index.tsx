@@ -11,7 +11,7 @@ export function Navbar(){
         const location = document.querySelector(target).offsetTop
         window.scrollTo({
             left: 0,
-            top: location - 112
+            top: location - 106
         })
 
     }
