@@ -29,7 +29,7 @@ export const Container = styled.nav`
           text-decoration: none;
           font-size: 24px;
           color: #fff;
-          @media (max-width: 1080px) {
+          @media (max-width: 1280px) {
                 font-size: 16px;
          }
 
