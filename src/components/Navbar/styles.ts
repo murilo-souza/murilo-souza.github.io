@@ -29,6 +29,10 @@ export const Container = styled.nav`
           text-decoration: none;
           font-size: 24px;
           color: #fff;
+          @media (max-width: 1080px) {
+                font-size: 16px;
+         }
+
           :hover{
               color: #505050;
           }
