@@ -13,7 +13,7 @@ export const GlobalStyles = createGlobalStyle`
         scroll-behavior: smooth
     }
 
-    @media (max-width:1080) {
+    @media (max-width:1280) {
         html {
             font-size: 93.75%
         }  
