@@ -30,7 +30,7 @@ export const Container = styled.nav`
           font-size: 24px;
           color: #fff;
           @media (max-width: 1280px) {
-                font-size: 16px;
+                font-size: 20px;
          }
 
           :hover{

@@ -7,7 +7,5 @@ export function ButtonNav(){
             <p>Follow me on</p>
             <Icon/>
         </Container>
-
-        
     );
 }
