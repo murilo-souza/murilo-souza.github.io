@@ -20,6 +20,11 @@ export const Container = styled.nav`
           a{
             font-size: 56px;
             text-decoration: none;
+            color: #fff;
+
+            :hover {
+              color: #505050;
+            }
           }
 
       }
