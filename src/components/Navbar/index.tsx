@@ -19,7 +19,7 @@ export function Navbar(){
     return (
         <Container>
             <div>
-                <h3>Portfolio</h3>
+                <h3><a href="#home">Portfolio</a></h3>
                 <div>
                     <a href="#home" onClick={handlePosition}>Home</a>
                     <a href="#about" onClick={handlePosition}>About me</a>
