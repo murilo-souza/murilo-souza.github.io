@@ -15,10 +15,11 @@ export const Container = styled.nav`
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      
+
       h3{
           a{
             font-size: 56px;
+            text-decoration: none;
           }
 
       }
