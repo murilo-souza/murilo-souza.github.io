@@ -30,10 +30,13 @@ export const GlobalStyles = createGlobalStyle`
             width: 1em;
         }
         ::-webkit-scrollbar-track{
-            background: #232121
+            background: #232121;
         }
         ::-webkit-scrollbar-thumb{
-            background: #1C1A1A
+            background: #1C1A1A;
+        }
+        ::-webkit-scrollbar-thumb:hover{
+            background: #323030;
         }
     }
 `
