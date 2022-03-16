@@ -27,7 +27,7 @@ export const GlobalStyles = createGlobalStyle`
 
     body {
         ::-webkit-scrollbar{
-            width: 2em;
+            width: 1em;
         }
         ::-webkit-scrollbar-track{
             background: #232121
