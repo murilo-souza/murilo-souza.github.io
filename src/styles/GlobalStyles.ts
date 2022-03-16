@@ -33,7 +33,7 @@ export const GlobalStyles = createGlobalStyle`
             background: #232121;
         }
         ::-webkit-scrollbar-thumb{
-            background: #1C1A1A;
+            background: #323030;
         }
         ::-webkit-scrollbar-thumb:hover{
             background: #323030;
