@@ -37,11 +37,25 @@ export const Container = styled.nav`
         a{
           margin-right: 30px;
           text-decoration: none;
-          font-size: 24px;
+          font-size: 22px;
           color: #fff;
           @media (max-width: 1280px) {
                 font-size: 20px;
-         }
+          }
+          @media (max-width: 720px) {
+                font-size: 20px;
+                display:none;
+                div{
+                  padding: 0 0 0 50px;
+
+                  h3{
+                    a{
+                      font-size:30px;
+                    }
+                  }
+                }
+
+          }
 
           :hover{
               color: #505050;
