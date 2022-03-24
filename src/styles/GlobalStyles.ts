@@ -31,6 +31,7 @@ export const GlobalStyles = createGlobalStyle`
         }
         ::-webkit-scrollbar-track{
             background: #232121;
+            
         }
         ::-webkit-scrollbar-thumb{
             background: #323030;
