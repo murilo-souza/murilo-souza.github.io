@@ -2,9 +2,8 @@ import React from 'react';
 import { Container } from './styles';
 import {Github} from '../MeetmeContent/Github'
 import {Gmail} from '../MeetmeContent/Gmail'
-import {Intagram} from '../MeetmeContent/Instagram'
 import {Linkedin} from '../MeetmeContent/Linkedin'
-
+import {Instagram} from '../MeetmeContent/Instagram'
 
 export function MeetMeGroup(){
     return(
@@ -15,7 +14,7 @@ export function MeetMeGroup(){
             </section>
             <section>
                 <Gmail/>
-                <Intagram/>
+                <Instagram/>
             </section>
         </Container>
     )
