@@ -24,6 +24,7 @@ export const Container = styled.nav`
 
             :hover {
               color: #505050;
+              transition: all 0.4s;
             }
           }
 
