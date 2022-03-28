@@ -32,13 +32,15 @@ export const GlobalStyles = createGlobalStyle`
         ::-webkit-scrollbar-track{
             background: #232121;
             
-            
         }
         ::-webkit-scrollbar-thumb{
             background: #323030;
+            border-radius: 10px;
+
         }
         ::-webkit-scrollbar-thumb:hover{
-            background: #323030;
+            background: #3F3D3D;
+            transition: ease-in-out 0.5s
         }
     }
 `
