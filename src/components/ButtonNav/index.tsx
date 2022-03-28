@@ -6,6 +6,6 @@ export function ButtonNav(){
         <Container href="https://github.com/murilo-souza">
             <p>Follow me on</p>
             <Icon/>
-        </Container>
+        </Container> 
     );
 }

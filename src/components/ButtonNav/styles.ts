@@ -8,21 +8,21 @@ export const Container = styled.a`
     border: 0;
     background-color: #1F2729;
     cursor: pointer;
-
     padding: 0 1.5rem;
-
     display: flex;
     align-items: center;
     justify-content: center;
+
+
 
     p{
         color: #FFFFFF;
         font-size: 20px;
         margin-right: 10px;
     }
-
     :hover{
         background-color: #323030;
+        transition: all 0.5s;
     }
 `;
 

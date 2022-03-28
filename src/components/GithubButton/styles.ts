@@ -22,6 +22,7 @@ export const Container = styled.a`
 
     :hover{
         background-color: #323030;
+        transition: all 0.5s;
     }
 
 `;
