@@ -5,6 +5,7 @@ export const Container = styled.a`
     flex-direction: row;
     align-items: center;
     margin-bottom: 20px;
+    text-decoration: none;
     div{
        background-color: #ff0084;
        height: 70px;
