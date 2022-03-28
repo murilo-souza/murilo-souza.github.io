@@ -1,8 +1,4 @@
 import React from 'react';
-import { Github } from '../../components/MeetmeContent/Github';
-import { Gmail } from '../../components/MeetmeContent/Gmail';
-import { Instagram } from '../../components/MeetmeContent/Instagram';
-import { Linkedin } from '../../components/MeetmeContent/Linkedin';
 import { MeetMeGroup } from '../../components/MeetMeGroup';
 import { Container } from './styles';
 
