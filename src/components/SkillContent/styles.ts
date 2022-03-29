@@ -5,6 +5,16 @@ export const Container = styled.div`
     flex-direction: row;
     align-items: center;
     margin-bottom: 20px;
+    :hover {
+        div{
+            height: 105px;
+            width: 15px;
+            a{
+                font-size:75px
+            }
+            transition: all 0.5s;
+        }
+    }
     div{
        background-color: #ff0084;
        height: 70px;
@@ -18,12 +28,6 @@ export const Container = styled.div`
         font-size: 50px;
         margin-right: 40px;
         text-decoration: none;
-        :hover {
-            color: #505050;
-            transition: all 0.4s;
-          }
-
-
           
     }
 `;
