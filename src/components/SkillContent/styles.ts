@@ -22,5 +22,8 @@ export const Container = styled.div`
             color: #505050;
             transition: all 0.4s;
           }
+
+
+          
     }
 `;
