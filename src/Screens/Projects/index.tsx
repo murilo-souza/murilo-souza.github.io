@@ -14,16 +14,19 @@ export function Projects(){
                         image={react}
                         alt="Dtmoney"
                         title='Dtmoney'
+                        link='https://github.com/murilo-souza/Dtmoney-Web-ReactJS'
                         />
                     <SkillContent
                         image={reactnative}
                         alt="App receitas"
                         title='App Receitas'
+                        link='https://github.com/murilo-souza/Receitas-App-ReactNative'
                         />
                     <SkillContent
                         image={nextjs}
                         alt="Ignews"
                         title='Ignews'
+                        link='https://github.com/murilo-souza/Ignews-Web-ReactJS'
                         />
                 </div>
                 <div>
@@ -31,12 +34,15 @@ export function Projects(){
                         image={reactnative}
                         alt="Gameplay NLW"
                         title='Gameplay NLW'
+                        link='https://github.com/murilo-souza/gameplayNLW-App-ReactNative'
                         />
                     <SkillContent
                         image={nextjs}
                         alt="DashGo"
                         title='DashGo'
+                        link='https://github.com/murilo-souza/DashGo-Web_ReactJS'
                         />
+
                 </div>
         </Container>
 

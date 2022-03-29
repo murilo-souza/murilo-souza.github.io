@@ -5,11 +5,12 @@ interface Props {
     image:string ;
     alt: string;
     title: string;
+    link?: string;
 }
 
-export function SkillContent({image, alt, title}: Props){
+export function SkillContent({image, alt, title, link}: Props){
     return(
-        <Container>
+        <Container href={link}>
             <img src={image} alt={alt}/>
             <div/>
             <p>{title}</p>
