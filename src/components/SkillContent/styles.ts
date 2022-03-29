@@ -1,11 +1,10 @@
 import styled from "styled-components";
 
-export const Container = styled.a`
+export const Container = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-bottom: 20px;
-    text-decoration: none;
     div{
        background-color: #ff0084;
        height: 70px;
@@ -14,9 +13,10 @@ export const Container = styled.a`
        border-radius: 5px
     }
 
-    p{
+    a{
         color: #fff;
         font-size: 50px;
         margin-right: 40px;
+        text-decoration: none;
     }
 `;

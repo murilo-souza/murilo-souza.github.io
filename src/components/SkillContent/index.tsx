@@ -10,10 +10,10 @@ interface Props {
 
 export function SkillContent({image, alt, title, link}: Props){
     return(
-        <Container href={link}>
+        <Container>
             <img src={image} alt={alt}/>
             <div/>
-            <p>{title}</p>
+            <a href={link}>{title}</a>
         </Container>
     );
 }
