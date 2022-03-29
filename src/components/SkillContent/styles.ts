@@ -18,5 +18,9 @@ export const Container = styled.div`
         font-size: 50px;
         margin-right: 40px;
         text-decoration: none;
+        :hover {
+            color: #505050;
+            transition: all 0.4s;
+          }
     }
 `;
