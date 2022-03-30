@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    display: flex;
+    display: inline;
     flex-direction: row;
     align-items: center;
     margin-bottom: 20px;
@@ -15,6 +15,7 @@ export const Container = styled.div`
             font-size: 62.5px;
             transition: all 0.3s;
         }
+        
     }
 
     div{
