@@ -26,7 +26,7 @@ export const Container = styled.div`
         margin-right: 40px;
         text-decoration: none;
         :hover{
-            font-size:75px;
+            font-size: 60px;
             transition: all 0.3s;
         }
           
