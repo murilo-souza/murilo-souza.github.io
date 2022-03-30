@@ -13,6 +13,9 @@ export const Container = styled.div`
                 font-size:75px
             }
             transition: all 0.5s;
+
+
+            
         }
     }
     div{
