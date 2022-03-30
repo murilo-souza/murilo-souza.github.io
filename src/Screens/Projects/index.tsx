@@ -11,10 +11,10 @@ export function Projects(){
             <h3>Principle projects</h3>
             <div>
                 <SkillContent
-                    image={nextjs}
-                    alt="Ignews"
-                    title='Ignews'
-                    link='https://github.com/murilo-souza/Ignews-Web-ReactJS'
+                    image={react}
+                    alt="Dtmoney"
+                    title='Dtmoney'
+                    link='https://github.com/murilo-souza/Dtmoney-Web-ReactJS'
                 />
                 <SkillContent
                     image={reactnative}
@@ -23,10 +23,10 @@ export function Projects(){
                     link='https://github.com/murilo-souza/Receitas-App-ReactNative'
                 />
                 <SkillContent
-                    image={react}
-                    alt="Dtmoney"
-                    title='Dtmoney'
-                    link='https://github.com/murilo-souza/Dtmoney-Web-ReactJS'
+                    image={nextjs}
+                    alt="Ignews"
+                    title='Ignews'
+                    link='https://github.com/murilo-souza/Ignews-Web-ReactJS'
                 />
                 </div>
                 <div>
