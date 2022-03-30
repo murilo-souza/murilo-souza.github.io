@@ -17,7 +17,7 @@ export const Container = styled.div`
        height: 70px;
        width: 10px;
        margin: 0 10px 0 5px;
-       border-radius: 5px
+       border-radius: 5px;
     }
 
     a{
@@ -26,8 +26,8 @@ export const Container = styled.div`
         margin-right: 40px;
         text-decoration: none;
         :hover{
-            font-size:75px
-            transition: all 0.3s
+            font-size:75px;
+            transition: all 0.3s;
         }
           
     }
