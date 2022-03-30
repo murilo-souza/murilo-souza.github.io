@@ -10,16 +10,16 @@ export const Container = styled.div`
     h3{
         font-size: 60px;
         color: #fff;
-        font-weight: normal;
         display: flex;
         justify-content: center;
         margin-bottom: 60px;
 
     }
 
+
     div {
         display: flex;
-        justify-content: center;
+        justify-content: center ;
     }
 
 `;
