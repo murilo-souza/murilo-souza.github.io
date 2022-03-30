@@ -17,6 +17,10 @@ export const Container = styled.a`
         align-items: center;
         justify-content: center;
         display: flex;
+        :hover{
+            width: 105px;
+            height: 105px;
+        }
     }
 
     section{
@@ -37,4 +41,7 @@ export const Container = styled.a`
 export const Icon = styled(AiFillGithub)`
     font-size: 70px;
     color: #fff;
+    :hover{
+        font-size 105px;
+    }
 `
