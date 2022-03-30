@@ -6,6 +6,20 @@ export const Container = styled.a`
     display: flex;
     flex-direction: row;
     text-decoration: none;
+    :hover{
+        div{
+            width: 87.5px;
+            height: 87.5px;
+            transition: all 0.3s;
+        }
+        section{
+            p{
+                font-size: 50px;
+                transition: all 0.3s;
+            }
+        }
+
+    }
     div {
         height: 70px;
         width: 70px;
@@ -16,7 +30,6 @@ export const Container = styled.a`
         justify-content: center;
         display: flex;
     }
-
     section{
         display: flex;
         flex-direction: column;

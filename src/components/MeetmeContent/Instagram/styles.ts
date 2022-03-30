@@ -8,6 +8,22 @@ export const Container = styled.a`
     flex-direction: row;
     text-decoration: none;
     padding-left: 300px;
+
+    :hover{
+        div{
+            width: 87.5px;
+            height: 87.5px;
+            transition: all 0.3s;
+        }
+        section{
+            p{
+                font-size: 50px;
+                transition: all 0.3s;
+            }
+        }
+
+    }
+
     div {
         height: 70px;
         width: 70px;

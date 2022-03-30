@@ -8,6 +8,20 @@ export const Container = styled.a`
     text-decoration: none;
     
     margin-bottom: 110px;
+    :hover{
+        div{
+            width: 87.5px;
+            height: 87.5px;
+            transition: all 0.3s;
+        }
+        section{
+            p{
+                font-size: 50px;
+                transition: all 0.3s;
+            }
+        }
+
+    }
     div {
         height: 70px;
         width: 70px;
@@ -17,10 +31,6 @@ export const Container = styled.a`
         align-items: center;
         justify-content: center;
         display: flex;
-        :hover{
-            width: 105px;
-            height: 105px;
-        }
     }
 
     section{
@@ -41,7 +51,4 @@ export const Container = styled.a`
 export const Icon = styled(AiFillGithub)`
     font-size: 70px;
     color: #fff;
-    :hover{
-        font-size 105px;
-    }
 `

@@ -8,6 +8,25 @@ export const Container = styled.a`
     text-decoration: none;
     padding-left: 300px;
     margin-bottom: 110px;
+
+    :hover{
+        div{
+            width: 87.5px;
+            height: 87.5px;
+            transition: all 0.3s;
+        }
+        section{
+            p{
+                font-size: 50px;
+                transition: all 0.3s;
+            }
+            span{
+                font-size: 20px;
+                transition: all 0.3s;
+            }
+        }
+    }
+
     div {
         height: 70px;
         width: 70px;
