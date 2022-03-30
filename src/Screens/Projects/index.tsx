@@ -17,16 +17,16 @@ export function Projects(){
                     link='https://github.com/murilo-souza/Ignews-Web-ReactJS'
                 />
                 <SkillContent
-                    image={react}
-                    alt="Dtmoney"
-                    title='Dtmoney'
-                    link='https://github.com/murilo-souza/Dtmoney-Web-ReactJS'
-                />
-                <SkillContent
                     image={reactnative}
                     alt="App receitas"
                     title='App Receitas'
                     link='https://github.com/murilo-souza/Receitas-App-ReactNative'
+                />
+                <SkillContent
+                    image={react}
+                    alt="Dtmoney"
+                    title='Dtmoney'
+                    link='https://github.com/murilo-souza/Dtmoney-Web-ReactJS'
                 />
                 </div>
                 <div>
