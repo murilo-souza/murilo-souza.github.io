@@ -9,13 +9,7 @@ export const Container = styled.div`
         div{
             height: 105px;
             width: 15px;
-            a{
-                font-size:75px
-            }
-            transition: all 0.5s;
-
-
-            
+            transition: all 0.3s;
         }
     }
     div{
@@ -31,6 +25,10 @@ export const Container = styled.div`
         font-size: 50px;
         margin-right: 40px;
         text-decoration: none;
+        :hover{
+            font-size:75px
+            transition: all 0.3s
+        }
           
     }
 `;
