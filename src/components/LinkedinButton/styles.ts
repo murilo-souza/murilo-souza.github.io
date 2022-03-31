@@ -4,7 +4,7 @@ import {BsLinkedin} from 'react-icons/bs'
 export const Container = styled.a`
     text-decoration: none;
     height: 50px;
-    width: 315px;
+    width: 415px;
     border-radius: 15px;
     border: 0;
     background-color: #0E76A8;
