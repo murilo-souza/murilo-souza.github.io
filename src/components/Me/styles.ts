@@ -5,4 +5,6 @@ export const Container = styled.div`
     height: 360px;
     background-color: #181615;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
 `;
