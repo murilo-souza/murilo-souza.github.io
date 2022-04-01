@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from './styles';
-import MePhoto from "../../assets/Me.svg"
+import MePhoto from "../../assets/Me.png"
 
 export function Me(){
     return(
