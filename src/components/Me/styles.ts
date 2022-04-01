@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    img{
-        width: 360px;
-        height: 360px;
-    }
+    width: 360px;
+    height: 360px;
+    background-color: #181615;
+    border-radius: 20px;
 `;
