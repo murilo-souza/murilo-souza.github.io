@@ -1,7 +1,8 @@
 <h1 align="center">Meu Portfolio</h1>
 <br/>
 
-![Home](https://user-images.githubusercontent.com/53982668/155032129-dc025089-a92f-4bac-b769-08cade95820b.png)
+![Home](https://user-images.githubusercontent.com/53982668/161388522-f6d6e258-e351-46f3-a22b-7d72124c38f0.png)
+
 
 <h2>Projeto</h2>
 <p>Projeto para desafiar meus conhecimentos em criação de interfaces Web no Figma, criação de aplicações com React e a utilização do sistema de deploy do Github</p>
