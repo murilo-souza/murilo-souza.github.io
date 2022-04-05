@@ -13,6 +13,7 @@ export const Container = styled.div`
         padding: 105px 120px 0 50px;
         flex-direction: column;
         justify-content: center;
+        height: 200vh
     }
 
     section{
