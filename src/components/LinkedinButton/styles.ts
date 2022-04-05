@@ -16,6 +16,10 @@ export const Container = styled.a`
     align-items: center;
     justify-content: center;
 
+    @media (max-width:720px){
+        width: 250px;
+    }
+
     p{
         margin-right: 10px;
     }

@@ -9,6 +9,8 @@ export const Container = styled.div`
     justify-content: space-between;
     background-color: #141212;
     @media (max-width:720px){
+        height: 175vh;
+        padding: 105px 120px 0 50px;
         flex-direction: column;
         justify-content: center;
     }
@@ -19,20 +21,32 @@ export const Container = styled.div`
         span {
             font-size: 48px;
             color: #ff0084;
+            @media (max-width:720px){
+                font-size: 38px;
+            }
         }
         
 
         h3{
             font-size: 72px;
             color: #fff;
+            @media (max-width:720px){
+                font-size: 62px;
+            }
             span {
                 font-size: 72px;
+                @media (max-width:720px){
+                    font-size: 62px;
+                }
             }
         }
 
         p{
             font-size: 36px;
             color: #fff;
+            @media (max-width:720px){
+                font-size: 26px;
+            }
 
         }
 

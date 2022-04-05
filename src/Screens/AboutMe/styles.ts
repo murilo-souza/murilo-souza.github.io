@@ -5,6 +5,10 @@ export const Container = styled.div`
     height: 87.73vh;
     background-color: #161414;
     padding: 100px 90px 0 100px;
+    @media (max-width:720px){
+        padding: 60px 90px 0 50px;
+        height: 100vh;
+    }
 
     h3 {    
         color: #fff;
@@ -13,12 +17,20 @@ export const Container = styled.div`
         justify-content: center;
         font-size: 76px;
         margin-bottom: 58.13px;
+        @media (max-width:720px){
+            font-size: 50px;
+            justify-content: left;
+            margin-bottom: 40px;
+        }
     }
 
     p {
         color: #fff;
         font-size: 23px;
         text-align: justify;
+        @media (max-width:720px){
+            font-size: 20px;
+        }
     }
 
 `;
