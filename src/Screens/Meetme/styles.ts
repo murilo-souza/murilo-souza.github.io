@@ -5,7 +5,10 @@ export const Container = styled.div`
     height: 87vh;
     background-color: #141212;
     padding: 100px 0 0 0;
-    
+    @media (max-width:720px){
+        padding: 100px 0 0 50px;
+        height: 120vh;
+    }
     
     h3{
         font-size: 60px;
@@ -13,6 +16,10 @@ export const Container = styled.div`
         display: flex;
         justify-content: center;
         margin-bottom: 60px;
+        @media (max-width:720px){
+            font-size: 50px;
+            justify-content: left;
+        }
 
     }
 
@@ -20,6 +27,9 @@ export const Container = styled.div`
     div {
         display: flex;
         justify-content: center ;
+        @media (max-width:720px){
+            justify-content:left;
+        }
     }
 
 `;

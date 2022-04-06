@@ -10,10 +10,10 @@ export const Container = styled.div`
     background-color: #141212;
     @media (max-width:720px){
         height: 175vh;
-        padding: 105px 120px 0 50px;
+        padding: 135px 120px 0 50px;
         flex-direction: column;
         justify-content: center;
-        height: 200vh
+        height: 170vh
     }
 
     section{

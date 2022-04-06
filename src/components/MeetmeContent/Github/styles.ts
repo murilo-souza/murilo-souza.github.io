@@ -8,6 +8,9 @@ export const Container = styled.a`
     text-decoration: none;
     
     margin-bottom: 110px;
+    @media (max-width:720px){
+        margin-bottom: 70px;
+    }
     :hover{
         div{
             width: 87.5px;

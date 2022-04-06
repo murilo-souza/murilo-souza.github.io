@@ -8,6 +8,10 @@ export const Container = styled.a`
     text-decoration: none;
     padding-left: 300px;
     margin-bottom: 110px;
+    @media (max-width:720px){
+        padding-left:0px;
+        margin-bottom: 70px
+    }
 
     :hover{
         div{

@@ -6,6 +6,7 @@ export const Container = styled.a`
     display: flex;
     flex-direction: row;
     text-decoration: none;
+    margin-bottom: 110px;
     :hover{
         div{
             width: 87.5px;
@@ -26,9 +27,9 @@ export const Container = styled.a`
         background-color:#FF0084;
         margin-right: 15px;
         border-radius: 10px;
+        display: flex;
         align-items: center;
         justify-content: center;
-        display: flex;
     }
     section{
         display: flex;

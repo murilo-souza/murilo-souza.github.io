@@ -5,11 +5,17 @@ export const Container = styled.div`
     width: 100%;
     height:95vh;
     padding: 71px 90px 0 100px;
-
+    @media (max-width:720px){
+        padding: 71px 20px 0 50px;
+        height: 200vh
+    }
     h3 {
         font-size: 60px;
         color: #fff;
         margin-bottom: 25px;
+        @media (max-width:720px){
+            font-size: 50px;
+        }
     }
 
     section {
@@ -19,5 +25,8 @@ export const Container = styled.div`
     div {
         display: flex;
         flex-direction: row;
+        @media (max-width:720px){
+            flex-direction: column;
+        }
     }
 `;

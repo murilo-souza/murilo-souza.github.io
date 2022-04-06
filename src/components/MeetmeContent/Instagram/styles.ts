@@ -8,7 +8,9 @@ export const Container = styled.a`
     flex-direction: row;
     text-decoration: none;
     padding-left: 300px;
-
+    @media (max-width:720px){
+        padding-left: 0px;
+    }
     :hover{
         div{
             width: 87.5px;
