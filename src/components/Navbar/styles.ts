@@ -9,6 +9,9 @@ export const Container = styled.nav`
     left: 0;
     padding-top:20px;
     background-color: #141212;
+    @media (max-width:720px){
+      height: 100px;
+    }
     div {
       align-items: center;
       padding: 0 40px 0 100px ;
