@@ -11,10 +11,13 @@ export const Container = styled.nav`
     background-color: #141212;
     div {
       align-items: center;
-      padding: 0 40px 0 50px ;
+      padding: 0 40px 0 100px ;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      @media (max-width:720px){
+        padding: 0 40px 0 50px ;
+      }
 
       h3{
           a{
