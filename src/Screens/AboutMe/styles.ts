@@ -31,6 +31,13 @@ export const Container = styled.div`
         @media (max-width:720px){
             font-size: 20px;
         }
+        span{
+            color: #ff0084;
+            font-size: 30px;
+            @media (max-width:720px){
+                font-size: 25px;
+            }
+        }
     }
 
 `; 
