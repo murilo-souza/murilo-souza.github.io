@@ -11,7 +11,7 @@ export const Container = styled.nav`
     background-color: #141212;
     div {
       align-items: center;
-      padding: 0 40px 0 100px ;
+      padding: 0 40px 0 50px ;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -21,6 +21,9 @@ export const Container = styled.nav`
             font-size: 56px;
             text-decoration: none;
             color: #fff;
+            @media (max-width:720px){
+              font-size: 45px;
+            }
 
             :hover {
               color: #505050;
@@ -46,15 +49,6 @@ export const Container = styled.nav`
           @media (max-width: 720px) {
                 font-size: 20px;
                 display:none;
-                div{
-                  padding: 0 0 0 50px;
-
-                  h3{
-                    a{
-                      font-size:30px;
-                    }
-                  }
-                }
 
           }
 
