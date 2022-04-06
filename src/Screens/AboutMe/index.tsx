@@ -5,7 +5,9 @@ export function AboutMe(){
     return(
         <Container id="about">
             <h3>About me</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec rhoncus neque. Morbi elementum enim a lectus laoreet, vel ullamcorper orci congue. Curabitur interdum sapien sed nibh tincidunt, sit amet feugiat ex pharetra. Morbi lectus felis, rhoncus nec dui nec, fringilla euismod sem. Ut vehicula, metus mollis elementum consequat, nisi dui interdum lacus, varius tristique libero magna sed mi. Aliquam imperdiet orci ut diam sagittis, a aliquam urna tincidunt. Donec odio velit, cursus vel ultricies nec</p>
+            <p>Hii!! I'm Murilo and I'm currently studying Mechatronic Engineering, but I've always loved front-end development, so now I'm studying to be a front-end developer. I use React and React Native to create my applications and I try to be creative when I create my own applications.
+            </p>
+            <p>I challenge myself to improve my skills, and when I create a new application I try to do something which I've never used before.</p>
         </Container>
     );
 }
