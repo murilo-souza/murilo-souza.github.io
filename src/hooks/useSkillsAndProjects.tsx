@@ -27,7 +27,7 @@ export const SkillAndProjectContext = createContext<SkillAndProjectContextData>(
     {} as SkillAndProjectContextData
 )
 
-export function SkillAndProjectProvider(){
+export function SkillAndProjectProvider({children}: ProviderProps){
     const [skills, setSkills] = useState<Skill[]>([])
     const [projects, setProjects] = useState<Project[]>([])
 
