@@ -13,11 +13,32 @@ interface Project{
     image: string,
 }
 
-interface SkillContextData{
+interface SkillAndProjectContextData{
     skills:Skill[],
+    projects: Project[],
 
 }
 
-interface ProjectContextData{
-    projects: Project[],
+interface ProviderProps {
+    children: ReactNode,
+}
+
+export const SkillAndProjectContext = createContext<SkillAndProjectContextData>(
+    {} as SkillAndProjectContextData
+)
+
+export function SkillAndProjectProvider(){
+    const [skills, setSkills] = useState<Skill[]>([])
+    const [projects, setProjects] = useState<Project[]>([])
+
+    useEffect(()=>{
+        api.get('/skills').then(response => setSkills(response.data.skills))
+        api.get('/projects').then(response => setProjects(response.data.projects))
+    },[])
+
+    return(
+        <SkillAndProjectContext.Provider value={{skills, projects}}>
+            {children}
+        </SkillAndProjectContext.Provider>
+    )
 }
