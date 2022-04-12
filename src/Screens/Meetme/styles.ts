@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     width: 100%;
-    height: 87vh;
+    height: 95vh;
     background-color: #141212;
     padding: 100px 0 0 0;
     @media (max-width:720px){
