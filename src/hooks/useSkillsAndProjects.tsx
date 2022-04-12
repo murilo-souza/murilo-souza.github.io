@@ -42,3 +42,10 @@ export function SkillAndProjectProvider({children}: ProviderProps){
         </SkillAndProjectContext.Provider>
     )
 }
+
+export function useSkillsAndProjects(){
+    const context = useContext(SkillAndProjectContext)
+
+
+    return context
+}
