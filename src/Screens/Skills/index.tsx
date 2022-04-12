@@ -8,9 +8,12 @@ import typescript from '../../assets/Typescript.png'
 import html from '../../assets/Html.png'
 import css from '../../assets/CSS3.png'
 import figma from '../../assets/figma.png'
+import { useSkillsAndProjects } from '../../hooks/useSkillsAndProjects';
 
 
 export function Skills(){
+    const {skills} = useSkillsAndProjects()
+
     return (
         <Container id="skills">
             <h3>Web&Mobile Skills</h3>
