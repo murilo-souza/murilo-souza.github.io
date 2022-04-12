@@ -12,7 +12,7 @@ import { useSkillsAndProjects } from '../../hooks/useSkillsAndProjects';
 
 
 export function Skills(){
-    const {skills} = useSkillsAndProjects()
+    //const {skills} = useSkillsAndProjects()
 
     return (
         <Container id="skills">
