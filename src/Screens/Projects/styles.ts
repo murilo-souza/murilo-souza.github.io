@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+//usar flex-wrap: wrap;
 export const Container = styled.div`
     width: 100%;
     height: 87vh;

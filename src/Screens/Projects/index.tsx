@@ -7,7 +7,7 @@ import nextjs from '../../assets/nextjs.png'
 //import { useSkillsAndProjects } from '../../hooks/useSkillsAndProjects';
 
 export function Projects(){
-    //const {projects} = useSkillsAndProjects() 
+    //const {projects} = useSkillsAndProjects()
     return(
         <Container id="projects">
             <h3>Main projects</h3>
