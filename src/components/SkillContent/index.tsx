@@ -3,7 +3,7 @@ import { Container } from "./styles";
 
 interface Props {
     image:string ;
-    alt: string;
+    alt?: string;
     title: string;
     link?: string;
 }

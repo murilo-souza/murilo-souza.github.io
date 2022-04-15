@@ -4,13 +4,15 @@ import {createContext, ReactNode, useContext, useEffect, useState} from 'react'
 interface Skill{
     id: number,
     title: string,
-    image: string,
+    img: string,
+    alt: string;
 }
 
 interface Project{
     id: number,
     title: string,
-    image: string,
+    img: string,
+    alt: string,
 }
 
 interface SkillAndProjectContextData{

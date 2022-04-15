@@ -9,11 +9,10 @@ export const Container = styled.div`
     justify-content: space-between;
     background-color: #141212;
     @media (max-width:720px){
-        height: 175vh;
         padding: 135px 120px 0 50px;
         flex-direction: column;
         justify-content: center;
-        height: 170vh
+       
     }
 
     section{
