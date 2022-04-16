@@ -11,6 +11,7 @@ import css from './assets/CSS3.png'
 
 
 createServer({
+  environment: 'production',
   models: {
     skill: Model,
     project: Model,
@@ -99,6 +100,7 @@ createServer({
   }
 
 })
+
 
 ReactDOM.render(
   <React.StrictMode>
