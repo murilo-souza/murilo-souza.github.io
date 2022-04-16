@@ -11,7 +11,7 @@ import css from './assets/CSS3.png'
 
 
 createServer({
-  environment: 'production',
+  environment: 'test',
   models: {
     skill: Model,
     project: Model,
