@@ -4,11 +4,13 @@ export const Container = styled.nav`
     width: 100%;
     height: 112px;
     color: #fff;
-    position:fixed;
+    position:sticky;
     top: 0;
     left: 0;
     padding-top:20px;
-    background-color: #141212;
+    background-color:#141212;
+    
+    
     @media (max-width:720px){
       height: 100px;
     }

@@ -8,55 +8,58 @@ import nextjs from '../../assets/nextjs.png'
 import typescript from '../../assets/Typescript.png'
 import html from '../../assets/Html.png'
 import css from '../../assets/CSS3.png'
-
+import ScrollReveal from 'scrollreveal';
 
 export function Skills(){
+    ScrollReveal({reset: true}).reveal('.scroll3', {duration: 1000})
     return (
         <Container id="skills">
-            <h3>Web&Mobile Skills</h3>
             <section>
-                <div>
-                    <SkillContent
-                        title='React'
-                        image={react}
-                        alt="Rea"
-                    />
-                    <SkillContent
-                        title='React Native'
-                        image={reactNative}
-                        alt="React Native"
-                    />
-                    <SkillContent
-                        title='Next JS'
-                        image={nextjs}
-                        alt="Next JS"
-                    />
-                    <SkillContent
-                        title='Typescript'
-                        image={typescript}
-                        alt="Typescript"
-                    />
-                    <SkillContent
-                        title='Html'
-                        image={html}
-                        alt="Html"
-                    />
-                    <SkillContent
-                        title='Css'
-                        image={css}
-                        alt="Css"
-                    />
+                <h3>Web&Mobile Skills</h3>
+                <section>
+                    <div className='scroll3'>
+                        <SkillContent
+                            title='React'
+                            image={react}
+                            alt="Rea"
+                            />
+                        <SkillContent
+                            title='React Native'
+                            image={reactNative}
+                            alt="React Native"
+                            />
+                        <SkillContent
+                            title='Next JS'
+                            image={nextjs}
+                            alt="Next JS"
+                            />
+                        <SkillContent
+                            title='Typescript'
+                            image={typescript}
+                            alt="Typescript"
+                            />
+                        <SkillContent
+                            title='Html'
+                            image={html}
+                            alt="Html"
+                            />
+                        <SkillContent
+                            title='Css'
+                            image={css}
+                            alt="Css"
+                        />
 
+                    </div>
+                </section>
+                <h3>UX/UI Design Skills</h3>
+                <div className='scroll3'>
+                    <SkillContent
+                        image={figma}
+                        alt="Figma"
+                        title='Figma'
+                        />
                 </div>
             </section>
-            <h3>UX/UI Design Skills</h3>
-            <div>
-                <SkillContent
-                    image={figma}
-                    alt="Figma"
-                    title='Figma'
-                />
-            </div>
         </Container>
     );
 }
