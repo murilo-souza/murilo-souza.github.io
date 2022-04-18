@@ -12,8 +12,6 @@
   <li><a href="https://pt-br.reactjs.org">React</a></li>
   <li><a href="https://styled-components.com">Styled components</a></li>
   <li><a href="https://www.typescriptlang.org">Typescript</a></li>
-  <li><a href="https://www.typescriptlang.org">Mirage JS</a></li>
-  <li><a href="https://www.typescriptlang.org">Axios</a></li>
 </ul>
 
 <h2>Layout</h2>
