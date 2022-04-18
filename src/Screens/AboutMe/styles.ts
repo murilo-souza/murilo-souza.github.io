@@ -28,7 +28,7 @@ export const Container = styled.div`
         color: #fff;
         font-size: 23px;
         text-align: justify;
-        margin-bottom: 30px;
+        padding-bottom: 30px;
         @media (max-width:720px){
             font-size: 20px;
         }
