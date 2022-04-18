@@ -7,7 +7,7 @@ export function Github(){
         <Container href='https://github.com/murilo-souza'>
             <div><Icon/></div>
             <section>
-                <p>github</p>
+                <p>GitHub</p>
             </section>
         </Container>
     );

@@ -54,4 +54,7 @@ export const Container = styled.a`
 export const Icon = styled(AiFillGithub)`
     font-size: 70px;
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 `
