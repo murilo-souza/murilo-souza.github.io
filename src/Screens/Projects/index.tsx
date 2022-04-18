@@ -4,15 +4,13 @@ import { Container } from "./styles";
 import react from '../../assets/React.png'
 import reactNative from '../../assets/ReactNative.png'
 import nextjs from '../../assets/nextjs.png'
-import ScrollReveal from 'scrollreveal'
 
 
 export function Projects(){
-     ScrollReveal({reset: true}).reveal('.scroll4', {duration: 1000})
      return(
           <Container id="projects">
                <h3>Main projects</h3>
-               <div className="scroll4">
+               <div>
                     <SkillContent
                          title="Ignews"
                          image={nextjs}

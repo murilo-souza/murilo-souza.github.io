@@ -8,16 +8,14 @@ import nextjs from '../../assets/nextjs.png'
 import typescript from '../../assets/Typescript.png'
 import html from '../../assets/Html.png'
 import css from '../../assets/CSS3.png'
-import ScrollReveal from 'scrollreveal';
 
 export function Skills(){
-    ScrollReveal({reset: true}).reveal('.scroll3', {duration: 1000})
     return (
         <Container id="skills">
             <section>
                 <h3>Web&Mobile Skills</h3>
                 <section>
-                    <div className='scroll3'>
+                    <div>
                         <SkillContent
                             title='React'
                             image={react}

@@ -5,11 +5,10 @@ import ScrollReveal from 'scrollreveal';
 
 
 export function MeetMe(){
-    ScrollReveal({reset: true}).reveal('.scroll5', {duration: 1000})
     return (
         <Container id="meet">
             <h3>Meet me</h3>
-            <div className='scroll5'>
+            <div>
                 <MeetMeGroup/>
             </div>
         </Container>
