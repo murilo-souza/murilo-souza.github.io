@@ -7,7 +7,7 @@ export const Container = styled.div`
     padding: 71px 90px 0 100px;
     @media (max-width:720px){
         padding: 71px 20px 0 50px;
-        height: 110vh
+        height: 100%;
     }
     h3 {
         font-size: 60px;

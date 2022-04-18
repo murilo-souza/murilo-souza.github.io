@@ -12,6 +12,7 @@ export const Container = styled.div`
         padding: 135px 120px 0 50px;
         flex-direction: column;
         justify-content: center;
+        height: 100%;
        
     }
     

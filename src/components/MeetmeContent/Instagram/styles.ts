@@ -8,6 +8,7 @@ export const Container = styled.a`
     flex-direction: row;
     text-decoration: none;
     padding-left: 300px;
+    margin-bottom: 100px;;
     @media (max-width:720px){
         padding-left: 0px;
     }
