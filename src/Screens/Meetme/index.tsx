@@ -1,8 +1,6 @@
 import React from 'react';
 import { MeetMeGroup } from '../../components/MeetMeGroup';
 import { Container } from './styles';
-import ScrollReveal from 'scrollreveal';
-
 
 export function MeetMe(){
     return (
