@@ -24,22 +24,21 @@ export const Container = styled.nav`
         padding: 0 40px 0 50px ;
       }
 
-      h3{
-          a{
-            font-size: 56px;
-            text-decoration: none;
-            color: #fff;
-            @media (max-width:720px){
-              font-size: 45px;
-            }
-
-            :hover {
-              color: #505050;
-              transition: all 0.3s;
-            }
-          }
-
+    
+      a{
+        text-decoration: none;
+        color: #fff;
+        img{
+          width: 100px;
+          height: 100px;
+        }
+        :hover {
+          color: #505050;
+          transition: all 0.3s;
+        }
       }
+
+      
   
       div {
         display: flex;
