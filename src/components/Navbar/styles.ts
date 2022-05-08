@@ -26,11 +26,21 @@ export const Container = styled.nav`
 
     
       a{
+        display: flex;
         text-decoration: none;
         color: #fff;
+        font-size: 55px;
+        align-items: center;
+        @media (max-width:720px){
+          font-size: 45px;
+        }
         img{
-          width: 100px;
-          height: 100px;
+          width: 65px;
+          height: 65px;
+          @media (max-width:720px){
+            width:55px;
+            height:55px;
+          }
         }
         :hover {
           color: #505050;

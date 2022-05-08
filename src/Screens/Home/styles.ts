@@ -13,7 +13,7 @@ export const Container = styled.div`
         flex-direction: column;
         justify-content: center;
         height: 100%;
-       
+        
     }
     
     section{

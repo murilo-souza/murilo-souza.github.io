@@ -9,8 +9,18 @@ export function Home(){
         <Container id="home">
             <section>
                 <span>Hello</span>
-                <h3>Welcome to <span>My Portfolio</span></h3>
-                <p>Browse the website to see my projects and skills</p>
+                <h3>
+                    Welcome to
+                    <br/>
+                    <span>
+                        My Portfolio
+                    </span>
+                </h3>
+                <p>
+                    Browse the website<br/>
+                    to see my projects<br/>
+                    and skills
+                </p>
                 <GithubButton/>
                 <LinkedinButton/>
             </section>

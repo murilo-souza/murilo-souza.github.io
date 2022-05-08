@@ -2,7 +2,7 @@ import React from 'react';
 import { ButtonNav } from '../ButtonNav';
 import { Line } from '../Line';
 import { Container } from './styles';
-import Logo from '../../assets/LOGO.png'
+import Logo from '../../assets/Logo.svg'
 
 export function Navbar(){
 
@@ -20,7 +20,7 @@ export function Navbar(){
     return (
         <Container>
             <div>
-                <a href="#home"><img src={Logo}/></a>
+                <a href="#home" onClick={handlePosition}><img src={Logo}/>Portfolio</a>
                 <div>
                     <a href="#home" onClick={handlePosition}>Home</a>
                     <a href="#about" onClick={handlePosition}>About me</a>
