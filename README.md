@@ -1,7 +1,7 @@
 <h1 align="center">Meu Portfolio</h1>
 <br/>
 
-![Home](https://user-images.githubusercontent.com/53982668/161388522-f6d6e258-e351-46f3-a22b-7d72124c38f0.png)
+![Home](https://user-images.githubusercontent.com/53982668/167320559-b7dc2ed3-4ead-4ff6-8e87-a45a1a75ce2f.png)
 
 
 <h2>Projeto</h2>
@@ -19,3 +19,4 @@
 
 
 <p>:construction: Em desenvolvimento :construction:</p>
+
