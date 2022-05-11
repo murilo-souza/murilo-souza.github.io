@@ -23,21 +23,27 @@ export const Container = styled.div`
             margin-bottom: 40px;
         }
     }
-
-    p {
+    h5 {
+        font-size: 40px;
         color: #fff;
-        font-size: 23px;
-        text-align: justify;
-        padding-bottom: 30px;
         @media (max-width:720px){
             font-size: 20px;
         }
         span{
             color: #ff0084;
-            font-size: 30px;
+            font-size: 45px;
             @media (max-width:720px){
                 font-size: 25px;
             }
+        }
+    }
+    p {
+        color: #fff;
+        font-size: 35px;
+        text-align: justify;
+        padding-bottom: 30px;
+        @media (max-width:720px){
+            font-size: 20px;
         }
     }
 
