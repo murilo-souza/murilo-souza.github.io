@@ -2,9 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     width: 100%;
-    height: 87.73vh;
     background-color: #161414;
-    padding: 100px 90px 0 100px;
+    padding: 100px 90px 20px 100px;
     @media (max-width:720px){
         padding: 60px 90px 0 50px;
         height: 100%; 
@@ -42,6 +41,11 @@ export const Container = styled.div`
         font-size: 35px;
         text-align: justify;
         padding-bottom: 30px;
+        a{
+            color: #ff0084;
+            text-decoration: none;
+            font-weight: bold;
+        }
         @media (max-width:720px){
             font-size: 20px;
         }
