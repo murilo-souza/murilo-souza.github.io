@@ -5,25 +5,7 @@ export const Container = styled.section`
     flex-direction: row;
     align-items: center;
     margin-bottom: 20px;
-    :hover {
-        section{
-            height: 87.5px;
-            width: 12.5px;
-            transition: all 0.3s;
-            @media (max-width:720px){
-                height:60px;
-                width: 7.5px;
-            }
-        }
-        a{
-            font-size: 62.5px;
-            transition: all 0.3s;
-            @media (max-width:720px){
-                font-size: 40px;
-            }
-        }
-        
-    }
+
 
     div{
        background-color: #ff0084;
