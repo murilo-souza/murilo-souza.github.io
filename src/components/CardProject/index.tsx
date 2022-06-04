@@ -1,27 +1,34 @@
 import react from 'react';
-import { Container} from './styles'
+import { SkillsUsed } from '../SkillsUsed';
+import {Container, Card} from './styles'
 
 interface Props{
     title: string;
     description: string;
     image:string ;
     alt: string;
-    link: string;
+    link?: string;
+    skill: string;
 
 }
 
-export function CardProject({title, description, image, alt, link}:Props){
+export function CardProject({title, description, image, alt, link, skill}:Props){
     return (
-        <Container href={link}>
-            <div>
-                <div>
+        <Container  href={link}>
+            <Card>
+                <div className='banner'>
                     <img src={image} alt={alt}/>
                 </div>
-                <div>
-                    <strong>{title}</strong>
-                    <p>{description}</p>
+                <div className="content">
+                    <div className="textContent">
+                        <strong>{title}</strong>
+                        <p className='description'>{description}</p>
+                    </div>
+                    <SkillsUsed
+                        title={skill}
+                    />
                 </div>
-            </div>
+            </Card>
         </Container>
     );
 

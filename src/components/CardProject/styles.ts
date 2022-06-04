@@ -1,10 +1,58 @@
 import styled from "styled-components";
 
+
 export const Container = styled.a`
     text-decoration: none;
-    
-    div {
-        
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 300px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    :hover{
+        width: 400px;
+        transition: all 0.5s;
+    }
+`;
+
+export const Card = styled.div`
+    justify-content: center;
+    .banner{
+        position: absolute;
+        height:164px;
+        width:286px;
+        border: 1px solid #FF0084;
+        border-radius: 12px;
+        box-sizing: border-box;
+        img{
+            height:100%;
+            width:100%;
+            object-fit: contain;
+            border-radius: 10px;
+        }
     }
 
+    .content {
+        border: 1px solid #FF0084;
+        flex-direction: column;
+        color: #000;
+        flex-wrap: wrap;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 100px 0px 0px 0px;
+        margin-top: 80px;
+        .textContent {
+            padding: 0px 10px 10px 10px;
+
+        }
+        strong {
+            font-size: 15px;
+            margin-bottom: 5px;
+        }
+        .description {
+            font-size: 12px;
+            margin-bottom: 15px;
+        }
+        
+    }
 `;
