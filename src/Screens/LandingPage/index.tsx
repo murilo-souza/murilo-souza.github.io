@@ -10,7 +10,6 @@ import { MeetMe } from '../Meetme';
 export function PrincipalPage(){
     return (
         <Container>
-            <Navbar/>
             <Home/>
             <AboutMe/>
             <Skills/>
