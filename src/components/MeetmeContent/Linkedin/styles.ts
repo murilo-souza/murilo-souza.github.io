@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { AiFillLinkedin} from 'react-icons/ai'
+import theme from "../../../styles/theme/theme";
 
 
 export const Container = styled.a`
@@ -24,7 +25,7 @@ export const Container = styled.a`
     div {
         height: 70px;
         width: 70px;
-        background-color:#FF0084;
+        background-color: ${(theme.color.primary)};
         margin-right: 15px;
         border-radius: 10px;
         display: flex;
@@ -37,12 +38,12 @@ export const Container = styled.a`
         justify-content: center;
 
         p{
-            color: #fff;
+            color: ${(theme.color.text)};
             font-size: 40px;
         }
 
         span {
-            color: #fff;
+            color: ${(theme.color.text)};
         }
     }
 

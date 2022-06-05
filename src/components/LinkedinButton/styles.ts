@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import {BsLinkedin} from 'react-icons/bs'
+import theme from "../../styles/theme/theme";
 
 export const Container = styled.a`
     text-decoration: none;
@@ -7,8 +8,8 @@ export const Container = styled.a`
     width: 315px;
     border-radius: 15px;
     border: 0;
-    background-color: #0E76A8;
-    color: #FFFFFF;
+    background-color: ${theme.color.linkedin};
+    color: ${(theme.color.text)};
     cursor: pointer;
     margin-top: 24px;
 
@@ -33,6 +34,6 @@ export const Container = styled.a`
 `;
 
 export const Icon = styled(BsLinkedin)`
-    color: #fff;
+    color: ${(theme.color.text)};
     font-size: 40px;
 `

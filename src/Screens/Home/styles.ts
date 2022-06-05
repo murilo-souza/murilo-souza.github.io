@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import theme from "../../styles/theme/theme";
 
 export const Container = styled.div`
     width: 100%;
@@ -7,7 +8,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #141212;
+    background-color: ${(theme.color.background)};
     @media (max-width:720px){
         padding: 30px 120px 0 50px;
         flex-direction: column;
@@ -22,7 +23,7 @@ export const Container = styled.div`
         
         span {
             font-size: 48px;
-            color: #ff0084;
+            color: ${(theme.color.primary)};
             @media (max-width:720px){
                 font-size: 38px;
             }
@@ -31,7 +32,7 @@ export const Container = styled.div`
 
         h3{
             font-size: 72px;
-            color: #fff;
+            color: ${(theme.color.text)};
             @media (max-width:720px){
                 font-size: 62px;
             }
@@ -45,7 +46,7 @@ export const Container = styled.div`
 
         p{
             font-size: 36px;
-            color: #fff;
+            color: ${(theme.color.text)};
             @media (max-width:720px){
                 font-size: 26px;
             }

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import theme from "../../styles/theme/theme";
 
 export const Container = styled.section`
     display: flex;
@@ -8,7 +9,7 @@ export const Container = styled.section`
 
 
     div{
-       background-color: #ff0084;
+       background-color: ${(theme.color.primary)};
        height: 50px;
        width: 10px;
        margin: 0 10px 0 5px;
@@ -16,7 +17,7 @@ export const Container = styled.section`
     }
 
     a{
-        color: #fff;
+        color: ${(theme.color.text)};
         font-size: 50px;
         margin-right: 40px;
         text-decoration: none;

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import theme from "../../styles/theme/theme";
 
 export const Container = styled.div`
     width: 100%;
@@ -10,7 +11,7 @@ export const Container = styled.div`
     }
 
     h3 {    
-        color: #fff;
+        color: ${(theme.color.text)};
         font-weight: normal;
         display: flex;
         justify-content: center;
@@ -24,12 +25,12 @@ export const Container = styled.div`
     }
     h5 {
         font-size: 40px;
-        color: #fff;
+        color: ${(theme.color.text)};
         @media (max-width:720px){
             font-size: 20px;
         }
         span{
-            color: #ff0084;
+            color: ${(theme.color.primary)};
             font-size: 45px;
             @media (max-width:720px){
                 font-size: 25px;
@@ -37,12 +38,12 @@ export const Container = styled.div`
         }
     }
     p {
-        color: #fff;
+        color: ${(theme.color.text)};
         font-size: 35px;
         text-align: justify;
         padding-bottom: 30px;
         a{
-            color: #ff0084;
+            color: ${(theme.color.primary)};
             text-decoration: none;
             font-weight: bold;
         }

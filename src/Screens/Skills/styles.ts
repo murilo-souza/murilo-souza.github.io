@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import theme from "../../styles/theme/theme";
 
 export const Container = styled.div`
-    background-color: #141212;
+    background-color: ${(theme.color.background)};
     width: 100%;
     height:100vh;
     padding: 71px 90px 0 100px;
@@ -11,7 +12,7 @@ export const Container = styled.div`
     }
     h3 {
         font-size: 60px;
-        color: #fff;
+        color: ${(theme.color.text)};
         margin-bottom: 25px;
         @media (max-width:720px){
             font-size: 50px;

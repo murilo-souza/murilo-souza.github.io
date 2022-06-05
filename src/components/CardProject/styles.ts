@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import theme from "../../styles/theme/theme";
 
 
 export const Container = styled.a`
@@ -21,7 +22,7 @@ export const Card = styled.div`
         position: absolute;
         height:164px;
         width:286px;
-        border: 1px solid #FF0084;
+        border: 1px solid ${(theme.color.primary)};
         border-radius: 12px;
         box-sizing: border-box;
         img{
@@ -33,11 +34,11 @@ export const Card = styled.div`
     }
 
     .content {
-        border: 1px solid #FF0084;
+        border: 1px solid ${(theme.color.primary)};
         flex-direction: column;
-        color: #000;
+        color: ${(theme.color.textAternative)};
         flex-wrap: wrap;
-        background-color: #fff;
+        background-color: ${(theme.color.text)};
         border-radius: 10px;
         padding: 100px 0px 0px 0px;
         margin-top: 80px;

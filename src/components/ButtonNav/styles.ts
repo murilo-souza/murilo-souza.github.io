@@ -1,12 +1,13 @@
 import styled from "styled-components";
 import {AiFillGithub} from 'react-icons/ai'
+import theme from "../../styles/theme/theme";
 
 export const Container = styled.a`
     text-decoration: none;
     height: 40px;
     border-radius: 15px;
     border: 0;
-    background-color: #1F2729;
+    background-color: ${(theme.color.secondary)} ;
     cursor: pointer;
     padding: 0 1.5rem;
     display: flex;
@@ -16,7 +17,7 @@ export const Container = styled.a`
 
 
     p{
-        color: #FFFFFF;
+        color: ${(theme.color.text)};
         font-size: 20px;
         margin-right: 10px;
     }
@@ -27,6 +28,6 @@ export const Container = styled.a`
 `;
 
 export const Icon = styled(AiFillGithub)`
-    color: #ff0084;
+    color: ${(theme.color.primary)};
     font-size: 25px;
 `

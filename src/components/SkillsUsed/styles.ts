@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import theme from "../../styles/theme/theme";
 
 export const Container = styled.div`
     display: flex;
@@ -13,5 +14,5 @@ export const Container = styled.div`
 export const Title = styled.p`
     font-size: 16px;
     font-weight: bold;
-    color: #FF0084;
+    color: ${(theme.color.primary)};
 `;
