@@ -1,12 +1,17 @@
 {
   "files": {
-    "main.js": "/static/js/main.4dd8760e.js",
+    "main.js": "/static/js/main.45084cef.js",
+    "static/media/gameplay.png": "/static/media/gameplay.d39b50c39371610f2bb0.png",
+    "static/media/dtmoney.png": "/static/media/dtmoney.b2298fbaf075bec57471.png",
+    "static/media/dashgo.png": "/static/media/dashgo.06c051fc56c16a49b131.png",
+    "static/media/ignews.png": "/static/media/ignews.563f861b75e0fedfe0f3.png",
+    "static/media/portfolio.png": "/static/media/portfolio.7b3eda0e4d72ab0bb400.png",
     "static/media/Me.png": "/static/media/Me.b185897a8dd98ab90990.png",
     "index.html": "/index.html",
     "static/media/Logo.svg": "/static/media/Logo.788b0f99a833e051e33d392cd657e847.svg",
-    "main.4dd8760e.js.map": "/static/js/main.4dd8760e.js.map"
+    "main.45084cef.js.map": "/static/js/main.45084cef.js.map"
   },
   "entrypoints": [
-    "static/js/main.4dd8760e.js"
+    "static/js/main.45084cef.js"
   ]
 }
