@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import { SkillsUsed } from '../SkillsUsed';
 import {Container, Card} from './styles'
 
