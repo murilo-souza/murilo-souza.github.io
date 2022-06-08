@@ -5,7 +5,7 @@ export const Container = styled.nav`
     width: 100%;
     height: 112px;
     color: ${(theme.color.text)};
-    position:sticky;
+    position: relative;
     top: 0;
     left: 0;
     padding-top:20px;
