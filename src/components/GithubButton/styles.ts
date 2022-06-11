@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import {AiFillGithub} from 'react-icons/ai'
-import theme from "../../styles/theme/theme";
+import {theme} from "../../styles/theme/theme";
 
 export const Container = styled.a`
     text-decoration: none;

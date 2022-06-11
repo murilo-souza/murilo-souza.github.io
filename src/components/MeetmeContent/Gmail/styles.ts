@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import {SiGmail} from 'react-icons/si'
-import theme from "../../../styles/theme/theme";
+import {theme} from "../../../styles/theme/theme";
 
 
 export const Container = styled.a`

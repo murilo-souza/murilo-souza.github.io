@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { AiFillLinkedin} from 'react-icons/ai'
-import theme from "../../../styles/theme/theme";
+import {theme} from "../../../styles/theme/theme";
 
 
 export const Container = styled.a`
