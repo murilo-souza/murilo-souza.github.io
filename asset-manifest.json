@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.c3e5a1e5.js",
+    "main.js": "/static/js/main.a67f0a57.js",
     "static/media/gameplay.png": "/static/media/gameplay.d39b50c39371610f2bb0.png",
     "static/media/dtmoney.png": "/static/media/dtmoney.b2298fbaf075bec57471.png",
     "static/media/dashgo.png": "/static/media/dashgo.06c051fc56c16a49b131.png",
@@ -9,9 +9,9 @@
     "static/media/Me.png": "/static/media/Me.b185897a8dd98ab90990.png",
     "index.html": "/index.html",
     "static/media/Logo.svg": "/static/media/Logo.788b0f99a833e051e33d392cd657e847.svg",
-    "main.c3e5a1e5.js.map": "/static/js/main.c3e5a1e5.js.map"
+    "main.a67f0a57.js.map": "/static/js/main.a67f0a57.js.map"
   },
   "entrypoints": [
-    "static/js/main.c3e5a1e5.js"
+    "static/js/main.a67f0a57.js"
   ]
 }
