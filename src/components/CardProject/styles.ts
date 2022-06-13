@@ -34,6 +34,7 @@ export const Card = styled.div`
             object-fit: contain;
             border-radius: 10px;
         }
+
     }
 
     .content {
