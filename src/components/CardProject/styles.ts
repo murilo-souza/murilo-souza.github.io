@@ -14,6 +14,7 @@ export const Container = styled.a`
         width: 400px;
         transition: all 0.5s;
     }
+
 `;
 
 export const Card = styled.div`
@@ -25,6 +26,8 @@ export const Card = styled.div`
         border: 1px solid ${(theme.color.primary)};
         border-radius: 12px;
         box-sizing: border-box;
+        margin-bottom: 130px;
+
         img{
             height:100%;
             width:100%;
@@ -42,6 +45,9 @@ export const Card = styled.div`
         border-radius: 10px;
         padding: 100px 0px 0px 0px;
         margin-top: 80px;
+        @media (max-width:720px){
+            
+        }
         .textContent {
             padding: 0px 10px 10px 10px;
 

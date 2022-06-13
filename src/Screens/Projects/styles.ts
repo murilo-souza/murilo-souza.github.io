@@ -6,7 +6,7 @@ export const Container = styled.div`
     background-color: #161414;
     padding: 100px 100px 0 100px;
     @media (max-width:720px){
-        padding: 60px 20px 0 50px;
+        padding: 40px 20px 0 50px;
         height: 100%;
     }
 
@@ -24,6 +24,8 @@ export const Container = styled.div`
         flex-wrap: wrap;
         flex-direction: row;
         @media (max-width:720px){
+            align-items: center;
+            flex-wrap: nowrap;
             flex-direction: column;
         }
     }
