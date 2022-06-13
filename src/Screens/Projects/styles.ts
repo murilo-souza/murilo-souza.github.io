@@ -6,7 +6,7 @@ export const Container = styled.div`
     background-color: #161414;
     padding: 100px 100px 0 100px;
     @media (max-width:720px){
-        padding: 40px 20px 0 50px;
+        padding: 0px;
         height: 100%;
     }
 
@@ -14,6 +14,7 @@ export const Container = styled.div`
         color: ${(theme.color.text)};
         font-size: 60px;
         margin-bottom: 50px;
+        margin-left: 50px;
         @media (max-width:720px){
             font-size:50px;
         }
