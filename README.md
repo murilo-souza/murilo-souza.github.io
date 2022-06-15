@@ -18,5 +18,3 @@
 <p>To see the entire application layout <a href="https://www.figma.com/file/UThmM13cp0YgSWnxM0WiOi/LayoutPortfolio?node-id=1%3A2">Click Here</a></p>
 
 
-<p>:construction: Under development:construction:</p>
-
