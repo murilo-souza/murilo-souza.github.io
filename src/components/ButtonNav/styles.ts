@@ -18,7 +18,7 @@ export const Container = styled.a`
 
     p{
         color: ${(theme.color.text)};
-        font-size: 20px;
+        font-size: 15px;
         margin-right: 10px;
     }
     :hover{

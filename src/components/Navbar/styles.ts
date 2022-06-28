@@ -30,10 +30,10 @@ export const Container = styled.nav`
         display: flex;
         text-decoration: none;
         color: ${(theme.color.text)};
-        font-size: 50px;
+        font-size: 30px;
         align-items: center;
         @media (max-width:720px){
-          font-size: 45px;
+          font-size: 25px;
         }
         img{
           width: 65px;
