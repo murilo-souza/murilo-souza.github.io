@@ -3,14 +3,14 @@ import {theme} from "../../styles/theme/theme";
 
 export const Container = styled.nav`
     width: 100%;
-    height: 112px;
+    height: 111px;
     color: ${(theme.color.text)};
-    position: relative;
+    position: sticky;
     top: 0;
     left: 0;
     padding-top:20px;
     background-color:${(theme.color.background)};
-    
+    z-index: 1;
     
     @media (max-width:720px){
       height: 100px;
