@@ -78,3 +78,5 @@ export const SocialMedias = styled.div`
   justify-content: center;
   gap: 0.5rem;
 `
+
+export const teste = styled.div``
