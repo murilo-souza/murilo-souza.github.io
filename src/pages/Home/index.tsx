@@ -5,6 +5,7 @@ import {
   Container,
   DevInfo,
   LeftContent,
+  PersonalInfo,
   RightContent,
   SocialMedias,
   UserArea,
@@ -53,6 +54,20 @@ export function Home() {
               </SocialMediaButtom>
             </SocialMedias>
           </DevInfo>
+          <PersonalInfo>
+            <h5>
+              Idade: <span>21</span>
+            </h5>
+            <h5>
+              Email: <span>Murilo.l.souza232@gmail.com</span>
+            </h5>
+            <h5>
+              Fone: <span>+55 15 991042412</span>
+            </h5>
+            <h5>
+              Freelancer: <span>Disponível</span>
+            </h5>
+          </PersonalInfo>
         </RightContent>
       </UserArea>
     </Container>

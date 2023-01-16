@@ -79,4 +79,12 @@ export const SocialMedias = styled.div`
   gap: 0.5rem;
 `
 
-export const teste = styled.div``
+export const PersonalInfo = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  h5 {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+`
