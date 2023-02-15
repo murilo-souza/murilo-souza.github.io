@@ -4,6 +4,7 @@ export const HeaderContainer = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* padding-right: 10px; */
 `
 
 export const LogoArea = styled.div`

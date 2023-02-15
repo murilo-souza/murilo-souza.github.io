@@ -3,7 +3,6 @@ import styled from 'styled-components'
 export const Container = styled.main`
   margin-top: 2rem;
   width: 100%;
-  height: 500px;
   border-radius: 10px;
   background: ${(props) => props.theme['zinc-700']};
 `
@@ -12,6 +11,10 @@ export const BannerArea = styled.div`
   height: 235px;
   overflow: hidden;
   object-fit: cover;
+
+  img {
+    width: 100%;
+  }
 `
 
 export const UserArea = styled.div`
@@ -26,14 +29,12 @@ export const LeftContent = styled.div`
 `
 
 export const Avatar = styled.div`
+  margin-top: -200px;
   width: 16rem;
   height: 16rem;
   border-radius: 10px;
   overflow: hidden;
   object-fit: cover;
-  background: ${(props) => props.theme['zinc-600']};
-  position: absolute;
-  top: 30%;
 
   img {
     width: 16rem;
@@ -42,7 +43,7 @@ export const Avatar = styled.div`
 `
 
 export const AboutMe = styled.div`
-  margin-top: 2rem;
+  margin-top: 1rem;
 
   h2 {
     font-size: 2rem;
@@ -64,13 +65,14 @@ export const RightContent = styled.div`
   flex-direction: column;
 `
 export const DevInfo = styled.div`
+  margin-top: -250px;
   display: flex;
   text-align: center;
   flex-direction: column;
   gap: 0.5rem;
-  position: absolute;
+  /* position: absolute;
   top: 30%;
-  left: 65%;
+  left: 63%; */
 `
 
 export const SocialMedias = styled.div`
@@ -80,6 +82,8 @@ export const SocialMedias = styled.div`
 `
 
 export const PersonalInfo = styled.div`
+  margin-top: 11rem;
+
   display: flex;
   flex-direction: column;
 
