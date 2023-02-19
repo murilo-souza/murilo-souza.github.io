@@ -1,3 +1,9 @@
 import styled from 'styled-components'
 
-export const Container = styled.main``
+export const Container = styled.main`
+  display: grid;
+
+  grid-template-columns: auto auto auto;
+
+  grid-gap: 1rem;
+`

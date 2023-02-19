@@ -1,9 +1,19 @@
+import { Card } from '../../components/Card'
 import { Container } from './styles'
 
 export function Projects() {
   return (
     <Container>
-      <h1>porjects</h1>
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
     </Container>
   )
 }
