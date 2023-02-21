@@ -14,7 +14,7 @@ export function Button({ title, icon: Icon, variant, redirect }: Props) {
   const theme = useTheme()
 
   return (
-    <ButtonContainer variant={variant} href={redirect}>
+    <ButtonContainer variant={variant} href={redirect} target="_blank">
       <Icon size={20} color={theme.white} />
       <Title>{title}</Title>
     </ButtonContainer>

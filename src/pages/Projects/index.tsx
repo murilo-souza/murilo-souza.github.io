@@ -4,7 +4,7 @@ import { Container } from './styles'
 
 const GET_CARDS_QUERY = gql`
   query MyQuery {
-    cards {
+    cards(first: 100) {
       bannerUrl
       id
       title
