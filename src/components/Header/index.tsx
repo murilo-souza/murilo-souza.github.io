@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 export function Header() {
   return (
     <HeaderContainer>
-      <LogoArea>
+      <LogoArea to="/">
         <img src={Logo} alt="" />
         <h1>
           Murilo <span>Souza</span>

@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 
 export const HeaderContainer = styled.header`
@@ -6,7 +7,8 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
 `
 
-export const LogoArea = styled.div`
+export const LogoArea = styled(NavLink)`
+  text-decoration: none;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -17,6 +19,7 @@ export const LogoArea = styled.div`
 
   h1 {
     font-size: 2rem;
+    color: ${(props) => props.theme.white};
   }
 
   span {

@@ -27,9 +27,7 @@ const GET_MY_INFO_QUERY = gql`
       me
       phone
       profession
-      backgroundImg {
-        url
-      }
+      backgroundUrl
     }
   }
 `
@@ -42,14 +40,12 @@ interface Props {
   me: string
   phone: string
   profession: string
-  image: {
-    url: string
-  }
+  backgroundUrl: string
 }
 
 export function Home() {
   const { data } = useQuery<{ information: Props }>(GET_MY_INFO_QUERY, {
-    fetchPolicy: 'no-cache',
+    fetchPolicy: 'cache-and-network',
   })
 
   console.log(data?.information)
@@ -60,10 +56,7 @@ export function Home() {
       ) : (
         <>
           <BannerArea>
-            <img
-              src="https://media.graphassets.com/54mpZ6ofS8ScpOqu5tTf"
-              alt=""
-            />
+            <img src={data?.information.backgroundUrl} alt="" />
           </BannerArea>
           <UserArea>
             <LeftContent>
