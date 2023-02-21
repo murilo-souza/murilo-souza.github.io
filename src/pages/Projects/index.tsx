@@ -5,7 +5,7 @@ import { Container, LoadingContainer } from './styles'
 
 const GET_CARDS_QUERY = gql`
   query MyQuery {
-    cards(first: 100) {
+    cards(first: 100, orderBy: testUrl_ASC) {
       bannerUrl
       id
       title

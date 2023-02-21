@@ -6,6 +6,10 @@ interface Props {
   children: ReactNode
 }
 
-export function SocialMediaButtom({ children, link }: Props) {
-  return <Container href={link}>{children}</Container>
+export function SocialMediaButton({ children, link }: Props) {
+  return (
+    <Container href={link} target="_blank">
+      {children}
+    </Container>
+  )
 }

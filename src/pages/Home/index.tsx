@@ -12,7 +12,7 @@ import {
   UserArea,
 } from './styles'
 import Banner from '../../assets/Banner.png'
-import { SocialMediaButtom } from '../../components/SocialMediaButtom'
+import { SocialMediaButton } from '../../components/SocialMediaButtom'
 import { LinkedinLogo, GithubLogo, InstagramLogo } from 'phosphor-react'
 import { theme } from '../../styles/themes/default'
 import { gql, useQuery } from '@apollo/client'
@@ -75,29 +75,29 @@ export function Home() {
                 <h1>Murilo Leme de Souza</h1>
                 <h3>{data?.information.profession}</h3>
                 <SocialMedias>
-                  <SocialMediaButtom link="https://www.linkedin.com/in/murilo-leme-de-souza/">
+                  <SocialMediaButton link="https://www.linkedin.com/in/murilo-leme-de-souza/">
                     <LinkedinLogo size={30} color={theme['gray-400']} />
-                  </SocialMediaButtom>
-                  <SocialMediaButtom link="https://github.com/murilo-souza">
+                  </SocialMediaButton>
+                  <SocialMediaButton link="https://github.com/murilo-souza/murilo-souza.github.io">
                     <GithubLogo size={30} color={theme['gray-400']} />
-                  </SocialMediaButtom>
-                  <SocialMediaButtom link="https://www.instagram.com/murilo_souza544/">
+                  </SocialMediaButton>
+                  <SocialMediaButton link="https://www.instagram.com/murilo_souza544/">
                     <InstagramLogo size={30} color={theme['gray-400']} />
-                  </SocialMediaButtom>
+                  </SocialMediaButton>
                 </SocialMedias>
               </DevInfo>
 
               <SocialMediaContainer>
                 <SocialMedias>
-                  <SocialMediaButtom link="https://github.com/murilo-souza">
+                  <SocialMediaButton link="https://github.com/murilo-souza">
                     <LinkedinLogo size={30} color={theme['gray-400']} />
-                  </SocialMediaButtom>
-                  <SocialMediaButtom link="https://github.com/murilo-souza">
+                  </SocialMediaButton>
+                  <SocialMediaButton link="https://github.com/murilo-souza">
                     <GithubLogo size={30} color={theme['gray-400']} />
-                  </SocialMediaButtom>
-                  <SocialMediaButtom link="https://github.com/murilo-souza">
+                  </SocialMediaButton>
+                  <SocialMediaButton link="https://github.com/murilo-souza">
                     <InstagramLogo size={30} color={theme['gray-400']} />
-                  </SocialMediaButtom>
+                  </SocialMediaButton>
                 </SocialMedias>
               </SocialMediaContainer>
 
