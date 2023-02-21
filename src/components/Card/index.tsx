@@ -6,21 +6,41 @@ import {
   ImgContainer,
   Title,
 } from './styles'
-import Capa from '../../assets/Capa.png'
 import { Button } from '../Button'
 import { GithubLogo, Lightning } from 'phosphor-react'
 
-export function Card() {
+interface Props {
+  bannerUrl: string
+  title: string
+  repoUrl: string
+  testUrl: string | null
+}
+
+export function Card({ bannerUrl, title, repoUrl, testUrl }: Props) {
   return (
     <Container>
       <ImgContainer>
-        <Img src={Capa} />
+        <Img src={bannerUrl} />
       </ImgContainer>
       <Content>
-        <Title>GitHub Blog</Title>
+        <Title>{title}</Title>
         <ButtonContainer>
-          <Button icon={GithubLogo} title="Repositório" variant="repo" />
-          <Button icon={Lightning} title="Testar" variant="test" />
+          <Button
+            icon={GithubLogo}
+            title="Repositório"
+            variant="repo"
+            redirect={repoUrl}
+          />
+          {testUrl ? (
+            <Button
+              icon={Lightning}
+              title="Testar"
+              variant="test"
+              redirect={testUrl}
+            />
+          ) : (
+            <></>
+          )}
         </ButtonContainer>
       </Content>
     </Container>

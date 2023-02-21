@@ -4,7 +4,7 @@ interface BackgroundProps {
   variant: 'repo' | 'test'
 }
 
-export const ButtonContainer = styled.button<BackgroundProps>`
+export const ButtonContainer = styled.a<BackgroundProps>`
   ${({ variant }) =>
     variant === 'repo' &&
     css`
@@ -26,6 +26,7 @@ export const ButtonContainer = styled.button<BackgroundProps>`
       }
     `}
 
+  text-decoration: none;
   padding: 0.5rem;
 
   width: 9.5rem;
