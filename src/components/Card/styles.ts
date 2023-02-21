@@ -2,11 +2,15 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   margin-top: 2rem;
-  width: 22rem;
+  width: 21.5rem;
 
   background-color: ${(props) => props.theme.white};
 
   border-radius: 10px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `
 
 export const ImgContainer = styled.div`

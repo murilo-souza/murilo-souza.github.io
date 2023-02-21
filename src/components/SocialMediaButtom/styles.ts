@@ -11,4 +11,9 @@ export const Container = styled.a`
   align-items: center;
   justify-content: center;
   background: ${(props) => props.theme.white};
+
+  @media (max-width: 768px) {
+    width: 3rem;
+    height: 3rem;
+  }
 `

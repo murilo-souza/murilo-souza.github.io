@@ -4,12 +4,16 @@ export const HeaderContainer = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* padding-right: 10px; */
 `
 
 export const LogoArea = styled.div`
   display: flex;
   align-items: center;
+  gap: 0.5rem;
+
+  img {
+    width: 3rem;
+  }
 
   h1 {
     font-size: 2rem;
@@ -25,7 +29,7 @@ export const Navigation = styled.nav`
   gap: 2rem;
 
   a {
-    width: 3rem;
+    /* width: 3rem; */
     padding-bottom: 0.25rem;
 
     display: flex;

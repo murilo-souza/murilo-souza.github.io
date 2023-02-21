@@ -15,12 +15,20 @@ export const BannerArea = styled.div`
   img {
     width: 100%;
   }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `
 
 export const UserArea = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 3.5rem 2.25rem;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
 `
 
 export const LeftContent = styled.div`
@@ -29,7 +37,7 @@ export const LeftContent = styled.div`
 `
 
 export const Avatar = styled.div`
-  margin-top: -200px;
+  margin-top: -12.5rem;
   width: 16rem;
   height: 16rem;
   border-radius: 10px;
@@ -39,6 +47,10 @@ export const Avatar = styled.div`
   img {
     width: 16rem;
     height: 16rem;
+  }
+
+  @media (max-width: 768px) {
+    margin-top: 0;
   }
 `
 
@@ -57,6 +69,11 @@ export const AboutMe = styled.div`
     margin-top: 0.5rem;
     width: 26rem;
     text-align: justify;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
   }
 `
 
@@ -65,20 +82,33 @@ export const RightContent = styled.div`
   flex-direction: column;
 `
 export const DevInfo = styled.div`
-  margin-top: -250px;
+  margin-top: -15.625rem;
   display: flex;
   text-align: center;
   flex-direction: column;
   gap: 0.5rem;
-  /* position: absolute;
-  top: 30%;
-  left: 63%; */
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+`
+export const SocialMediaContainer = styled.div`
+  display: none;
+
+  @media (max-width: 768px) {
+    margin: 1rem;
+    display: block;
+  }
 `
 
 export const SocialMedias = styled.div`
   display: flex;
   justify-content: center;
   gap: 0.5rem;
+
+  @media (max-width: 768px) {
+    justify-content: space-between;
+  }
 `
 
 export const PersonalInfo = styled.div`
@@ -90,5 +120,9 @@ export const PersonalInfo = styled.div`
   h5 {
     margin-top: 1rem;
     font-size: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    margin-top: 0;
   }
 `
