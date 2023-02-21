@@ -11,7 +11,6 @@ import {
   SocialMedias,
   UserArea,
 } from './styles'
-import Banner from '../../assets/Banner.png'
 import { SocialMediaButton } from '../../components/SocialMediaButtom'
 import { LinkedinLogo, GithubLogo, InstagramLogo } from 'phosphor-react'
 import { theme } from '../../styles/themes/default'
@@ -21,7 +20,6 @@ import { Loading } from '../../components/Loading'
 const GET_MY_INFO_QUERY = gql`
   query MyQuery {
     information(where: { id: "cleanvw285uj00blrgj4dcli7" }) {
-      id
       age
       avatarUrl
       eMail
@@ -29,6 +27,9 @@ const GET_MY_INFO_QUERY = gql`
       me
       phone
       profession
+      backgroundImg {
+        url
+      }
     }
   }
 `
@@ -41,13 +42,17 @@ interface Props {
   me: string
   phone: string
   profession: string
+  image: {
+    url: string
+  }
 }
 
 export function Home() {
   const { data } = useQuery<{ information: Props }>(GET_MY_INFO_QUERY, {
-    fetchPolicy: 'cache-and-network',
+    fetchPolicy: 'no-cache',
   })
 
+  console.log(data?.information)
   return (
     <Container>
       {!data ? (
@@ -55,7 +60,10 @@ export function Home() {
       ) : (
         <>
           <BannerArea>
-            <img src={Banner} alt="" />
+            <img
+              src="https://media.graphassets.com/54mpZ6ofS8ScpOqu5tTf"
+              alt=""
+            />
           </BannerArea>
           <UserArea>
             <LeftContent>
