@@ -90,13 +90,13 @@ export function Home() {
 
               <SocialMediaContainer>
                 <SocialMedias>
-                  <SocialMediaButton link="https://github.com/murilo-souza">
+                  <SocialMediaButton link="https://www.linkedin.com/in/murilo-leme-de-souza/">
                     <LinkedinLogo size={30} color={theme['gray-400']} />
                   </SocialMediaButton>
                   <SocialMediaButton link="https://github.com/murilo-souza">
                     <GithubLogo size={30} color={theme['gray-400']} />
                   </SocialMediaButton>
-                  <SocialMediaButton link="https://github.com/murilo-souza">
+                  <SocialMediaButton link="https://www.instagram.com/murilo_souza544/">
                     <InstagramLogo size={30} color={theme['gray-400']} />
                   </SocialMediaButton>
                 </SocialMedias>
