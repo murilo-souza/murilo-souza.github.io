@@ -32,7 +32,6 @@ export const Navigation = styled.nav`
   gap: 2rem;
 
   a {
-    /* width: 3rem; */
     padding-bottom: 0.25rem;
 
     display: flex;
